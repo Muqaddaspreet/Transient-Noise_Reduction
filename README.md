@@ -21,10 +21,11 @@ The project leverages:
 - [Usage Instructions](#usage-instructions)
   - [Environment Setup](#environment-setup)
   - [Running the Notebooks](#running-the-notebooks)
-- [Results Summary](#results-summary)
+- [Results](#results)
+  - [Mask](#mask)
+  - [Spectrogram](#spectrogram)
 - [Future Work](#future-work)
 - [References](#references)
-- [License](#license)
 - [Contact](#contact)
 
 ---
@@ -151,7 +152,7 @@ Each notebook typically follows this structure:
 
 ---
 
-## Results Summary
+## Results
 
 Below is a high-level snapshot of the final results (aggregated from the paper and slides):
 
@@ -164,6 +165,39 @@ Below is a high-level snapshot of the final results (aggregated from the paper a
 - **RNN** often provides the best SNR improvement and competitive MSE while keeping reasonable inference speed and memory usage.  
 - **FNN** trains quickly and can achieve good speech quality metrics, but can have higher inference time and memory usage.  
 - **CNN** can capture local patterns in time-frequency representations but can struggle with truly unpredictable transients compared to RNN.
+
+### Mask
+
+#### CNN
+![Original_Mask_CNN](images/CNN/Original_Mask_CNN.png)
+![Predicted_Mask_CNN](images/CNN/Predicted_Mask_CNN.png)
+
+#### RNN
+![Original_Mask_RNN](images/RNN/Original_Mask_RNN.png)
+![Predicted_Mask_RNN](images/RNN/Predicted_Mask_RNN.png)
+
+#### MLP
+![Original_Mask_MLP](images/MLP/Original_Mask_MLP.png)
+![Predicted_Mask_MLP](images/MLP/Predicted_Mask_MLP.png)
+
+---
+
+### Spectrogram
+
+#### CNN
+![Clean_Audio_Spectrogram_CNN](images/CNN/Clean_Audio_Spectrogram_CNN.png)
+![Noisy_Audio_Spectrogram_CNN](images/CNN/Noisy_Audio_Spectrogram_CNN.png)
+![Enhanced_Audio_Spectrogram_CNN](images/CNN/Enhanced_Audio_Spectrogram_CNN.png)
+
+#### RNN
+![Clean_Audio_Spectrogram_RNN](images/RNN/Clean_Audio_Spectrogram_RNN.png)
+![Noisy_Audio_Spectrogram_RNN](images/RNN/Noisy_Audio_Spectrogram_RNN.png)
+![Enhanced_Audio_Spectrogram_RNN](images/RNN/Enhanced_Audio_Spectrogram_RNN.png)
+
+#### MLP
+![Clean_Audio_Spectrogram_MLP](images/MLP/Clean_Audio_Spectrogram_MLP.png)
+![Noisy_Audio_Spectrogram_MLP](images/MLP/Noisy_Audio_Spectrogram_MLP.png)
+![Enhanced_Audio_Spectrogram_MLP](images/MLP/Enhanced_Audio_Spectrogram_MLP.png)
 
 ---
 
