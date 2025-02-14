@@ -170,26 +170,16 @@ Below is a high-level snapshot of the final results (aggregated from the paper a
 ### Audio
 
 1. **Original Noisy Audio**
-<audio controls>
-  <source src="audio/Original_Noisy_Audio.webm" type="audio/webm">
-  Your browser does not support the audio element.
-</audio>
 
+[**Original_Noisy_Audio**](https://github.com/user-attachments/assets/a238f6b7-b122-414e-9585-ea469de6a75b)
 
-[Original_Noisy_Audio.webm](https://github.com/user-attachments/assets/a238f6b7-b122-414e-9585-ea469de6a75b)
+3. **Enhanced Audio**  
 
-
-2. **Enhanced Audio**  
-<audio controls>
-  <source src="audio/Enhanced_Audio.webm" type="audio/webm">
-  Your browser does not support the audio element.
-</audio>
+[Enhanced_Audio.webm](https://github.com/user-attachments/assets/70888f0d-5de8-4e30-8641-287fa6041d62)
 
 3. **Clean Audio**  
-<audio controls>
-  <source src="audio/Clean_Audio.webm" type="audio/webm">
-  Your browser does not support the audio element.
-</audio>
+
+[Clean_Audio.webm](https://github.com/user-attachments/assets/59216766-0159-4d39-acce-75b5446b0c7e)
 
 ### Mask
 
