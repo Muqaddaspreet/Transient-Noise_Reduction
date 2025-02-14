@@ -171,17 +171,17 @@ Below is a high-level snapshot of the final results (aggregated from the paper a
 
 1. **Original Noisy Audio**
 <audio controls>
-  <source src="audio/Original_Noisy_Audio.mp3" type="audio/mpeg">
+  <source src="audio/Original_Noisy_Audio.webm" type="audio/webm">
   Your browser does not support the audio element.
 </audio>
 
+[Original_Noisy_Audio.webm](https://github.com/user-attachments/assets/a238f6b7-b122-414e-9585-ea469de6a75b)
 
 2. **Enhanced Audio**  
 <audio controls>
   <source src="audio/Enhanced_Audio.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
-[Original_Noisy_Audio.webm](https://github.com/user-attachments/assets/a238f6b7-b122-414e-9585-ea469de6a75b)
 
 
 3. **Clean Audio**  
