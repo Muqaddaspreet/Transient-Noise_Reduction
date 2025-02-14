@@ -175,18 +175,15 @@ Below is a high-level snapshot of the final results (aggregated from the paper a
   Your browser does not support the audio element.
 </audio>
 
-[Original_Noisy_Audio.webm](https://github.com/user-attachments/assets/a238f6b7-b122-414e-9585-ea469de6a75b)
-
 2. **Enhanced Audio**  
 <audio controls>
-  <source src="audio/Enhanced_Audio.wav" type="audio/wav">
+  <source src="audio/Enhanced_Audio.webm" type="audio/webm">
   Your browser does not support the audio element.
 </audio>
 
-
 3. **Clean Audio**  
 <audio controls>
-  <source src="audio/Clean_Audio.wav" type="audio/wav">
+  <source src="audio/Clean_Audio.webm" type="audio/webm">
   Your browser does not support the audio element.
 </audio>
 
