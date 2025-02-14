@@ -171,7 +171,7 @@ Below is a high-level snapshot of the final results (aggregated from the paper a
 
 1. **Original Noisy Audio**  
 <audio controls>
-  <source src="audio/Original_Noisy_Audio.wav" type="audio/wav">
+  <source src="audio/Original_Noisy_Audio.mp3" type="audio/mp3">
   Your browser does not support the audio element.
 </audio>
 
