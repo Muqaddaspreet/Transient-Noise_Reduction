@@ -48,7 +48,7 @@ Each approach is trained and tested on **speech samples artificially corrupted w
 - **Short-Time Objective Intelligibility (STOI)**
 
 The primary goal is to **compare different neural network architectures**—specifically **Feed-Forward Neural Networks (FNN/MLP)**, **Convolutional Neural Networks (CNN)**, and **Recurrent Neural Networks (RNN/LSTM)**—to determine their effectiveness in suppressing transient (sudden, short-duration) noise.
-📄 **[Read the Full Research Paper](Transient Noise Reduction.pdf)**
+📄 **[Read the Full Research Paper](Transient_Noise_Reduction.pdf)**
 
 ---
 
