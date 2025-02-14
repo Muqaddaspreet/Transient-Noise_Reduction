@@ -1,6 +1,6 @@
 # Transient-Noise_Reduction
 
-This repository contains Jupyter notebooks and supplementary materials for **transient noise reduction** in speech signals. The primary goal is to **compare different neural network architectures**—specifically **Feed-Forward Neural Networks (FNN/MLP)**, **Convolutional Neural Networks (CNN)**, and **Recurrent Neural Networks (RNN/LSTM)**—to determine their effectiveness in suppressing transient (sudden, short-duration) noise.
+This repository contains Jupyter notebooks and supplementary materials for **transient noise reduction** in speech signals.
 
 The project leverages:
 
@@ -46,6 +46,9 @@ Each approach is trained and tested on **speech samples artificially corrupted w
 - **Mean Squared Error (MSE)**
 - **Perceptual Evaluation of Speech Quality (PESQ)**
 - **Short-Time Objective Intelligibility (STOI)**
+
+The primary goal is to **compare different neural network architectures**—specifically **Feed-Forward Neural Networks (FNN/MLP)**, **Convolutional Neural Networks (CNN)**, and **Recurrent Neural Networks (RNN/LSTM)**—to determine their effectiveness in suppressing transient (sudden, short-duration) noise.
+📄 **[Read the Full Research Paper](Transient Noise Reduction.pdf)**
 
 ---
 
