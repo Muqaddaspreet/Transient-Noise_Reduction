@@ -174,6 +174,8 @@ Below is a high-level snapshot of the final results (aggregated from the paper a
   <source src="audio/Original_Noisy_Audio.webm" type="audio/webm">
   Your browser does not support the audio element.
 </audio>
+![Original_Noisy_Audio.webm](audio/Original_Noisy_Audio.webm)
+
 
 2. **Enhanced Audio**  
 <audio controls>
