@@ -22,6 +22,7 @@ The project leverages:
   - [Environment Setup](#environment-setup)
   - [Running the Notebooks](#running-the-notebooks)
 - [Results](#results)
+  - [Audio](#audio)
   - [Mask](#mask)
   - [Spectrogram](#spectrogram)
 - [Future Work](#future-work)
@@ -165,6 +166,26 @@ Below is a high-level snapshot of the final results (aggregated from the paper a
 - **RNN** often provides the best SNR improvement and competitive MSE while keeping reasonable inference speed and memory usage.  
 - **FNN** trains quickly and can achieve good speech quality metrics, but can have higher inference time and memory usage.  
 - **CNN** can capture local patterns in time-frequency representations but can struggle with truly unpredictable transients compared to RNN.
+
+### Audio
+
+1. **Original Noisy Audio**  
+<audio controls>
+  <source src="audio/Original_Noisy_Audio.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+2. **Enhanced Audio**  
+<audio controls>
+  <source src="audio/Enhanced_Audio.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+3. **Clean Audio**  
+<audio controls>
+  <source src="audio/Clean_Audio.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
 
 ### Mask
 
