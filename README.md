@@ -21,7 +21,7 @@ The project leverages:
 - [Usage Instructions](#usage-instructions)
   - [Environment Setup](#environment-setup)
   - [Running the Notebooks](#running-the-notebooks)
--[Viewing the Notebooks](#viewing-the-notebooks) 
+- [Viewing the Notebooks](#viewing-the-notebooks) 
 - [Results](#results)
   - [Audio](#audio)
   - [Mask](#mask)
