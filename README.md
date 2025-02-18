@@ -21,6 +21,7 @@ The project leverages:
 - [Usage Instructions](#usage-instructions)
   - [Environment Setup](#environment-setup)
   - [Running the Notebooks](#running-the-notebooks)
+-[Viewing the Notebooks](#viewing-the-notebooks) 
 - [Results](#results)
   - [Audio](#audio)
   - [Mask](#mask)
@@ -119,7 +120,7 @@ The primary goal is to **compare different neural network architectures**—spec
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/YourUsername/TransientNoiseReduction.git
+   git clone https://github.com/Muqaddaspreet/Transient-Noise_Reduction.git
    cd TransientNoiseReduction
 
 2. **Create a Conda/virtual environment (optional but recommended)**:
@@ -135,17 +136,17 @@ The primary goal is to **compare different neural network architectures**—spec
    ```bash
    jupyter notebook
 ---
-## Running the Notebooks
+### Running the Notebooks
 
-Then navigate to each of the following notebooks to run them:
+After environment setup, navigate to each of the following notebooks to run them:
 
-- **FNN_Transient_Noise.ipynb**  
+- **MLP_F.ipynb**  
   *Explores the feed-forward approach.*
 
-- **CNN_Transient_Noise.ipynb**  
+- **CNN_F.ipynb**  
   *Explores the convolutional approach.*
 
-- **RNN_Transient_Noise.ipynb**  
+- **NoiseReductionRNN_F.ipynb**  
   *Explores LSTM-based recurrent approach.*
 
 Each notebook typically follows this structure:
@@ -155,6 +156,14 @@ Each notebook typically follows this structure:
 4. **Evaluation** of test samples (prints MSE, SNR improvement, PESQ, STOI, etc.)
 
 ---
+
+## Viewing the notebooks
+
+You can view the Jupyter Notebooks using **nbviewer**:
+
+- **FNN (MLP) Notebook**: [View on nbviewer](https://nbviewer.org/github/Muqaddaspreet/Transient-Noise_Reduction/blob/main/MLP_F.ipynb)
+- **CNN Notebook**: [View on nbviewer](https://nbviewer.org/github/Muqaddaspreet/Transient-Noise_Reduction/blob/main/CNN_F.ipynb)
+- **RNN Notebook**: [View on nbviewer](https://nbviewer.org/github/Muqaddaspreet/Transient-Noise_Reduction/blob/main/NoiseReductionRNN_F.ipynb)
 
 ## Results
 
